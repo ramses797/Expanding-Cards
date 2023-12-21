@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 50vh;
+    background-color: #000000;
+}
+
+.card {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    transition: all 700ms ease-in;
+}
+
+.active {
+    flex: 5;
+    transition: all 700ms ease-in;
+}
